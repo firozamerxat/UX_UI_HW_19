@@ -1,5 +1,6 @@
 /*Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&display=swap');
 
 /*overwrite*/
 *{
@@ -305,4 +306,83 @@ footer{
     }
 }
 /*_________________________This is the end of Mobile media query_____________________*/
+
+
+/*_________________________Below is the Assignment for Week 19______________________________*/
+.landing_heading{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.landing_heading img{
+    width: 150px; 
+    height:75px; 
+}
+
+.landing_heading p{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*______________________________typewriting part below__________________________*/
+
+#text{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 30px;
+    letter-spacing: 3px;
+}
+
+
+/*__________________________________Main content________________________________*/
+
+.landing_box{
+    position: relative;
+    width: 500px; 
+    height: 336px;
+    margin: 30px auto;
+    background: rgba(255,255,255,0.2); 
+    /*creating a rgba box so that the opacity of the content inside will not change*/
+    text-align: center;
+}
+
+.landing_box {
+    list-style: none;
+}
+
+
+.landing_box li{
+    padding:30px;
+}
+
+.landing_box li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+/*_____________Added hover effect directly on CSS_______________*/
+.landing_box li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+    font-size: 26px;
+}
+
+
+
+/*____________social media icons at the bottom_____________________*/
+
+.landing_icon{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+/*_________________________This is the end of landing page with user interaction_____________________*/
+
 
