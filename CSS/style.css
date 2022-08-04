@@ -364,7 +364,7 @@ footer{
     font-size: 20px;
 }
 
-/*_____________Added hover effect directly on CSS_______________*/
+/*_____________Added hover effect directly on CSS_____________*/
 .landing_box li a:hover{
     text-decoration-line: underline;
     text-decoration-thickness: 1.5px;
