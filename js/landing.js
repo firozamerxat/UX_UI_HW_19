@@ -1,12 +1,41 @@
-/*__________________Text hover effect using jQuery___________________*/
-$("loading_box li a").on("hover"),function(){
-    if(){
-        $(this).css("text-decoration","underline")};
+/*__________________Text hover effect using jQuery___________________
 
-    else(){
-        $(this).css("text-decoration","none")
-    };
-};
+method 1 (dit not work)
+
+$("landing_box li a").on("hover",function(){
+    if(true){
+        $(this).css("text-decoration-line","underline")
+    }
+    
+    else{
+        $(this).css("text-decoration-line","none")
+    }
+});
+
+
+method 2 (did not work)
+
+$(landing_box li a).ready(function(){
+    $("landing_box li a").hover(function(){
+        $(this).css("text-decoration","underline");
+    },function(){
+        $(this).css("text-decoration","none");
+    });
+});
+
+
+
+method 3 (did not work)
+$(apple).hover(function () {
+    $(this).css("text-decoration","underline");
+    // over
+            
+    }, function () {
+   
+    }
+);
+*/
+
 
 
 /*__________________Typing animation using js________________________*/
