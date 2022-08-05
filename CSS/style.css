@@ -371,8 +371,8 @@ footer{
     font-size: 26px;
 }*/
 
-
-
+a {text-decoration: none !important;}
+.applyUnderline {text-decoration-line: underline !important;}
 
 
 /*____________social media icons at the bottom_____________________*/
